@@ -8,9 +8,15 @@ function NavBar(props) {
       <img src={logo_white} alt="logo_white" />
       <nav id="nav_bar">
         <ul>
-          <li>Projects</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <a>Projects</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
         </ul>
       </nav>
     </div>

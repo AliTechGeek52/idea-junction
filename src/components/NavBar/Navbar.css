@@ -26,3 +26,27 @@
     cursor: pointer;
     color: white;
 }
+
+#nav_bar ul li a {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+}
+
+#nav_bar ul li a::after {
+    position: absolute;
+    content: "";
+    height: .1em;
+    top: 100%;
+    background: currentColor;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform .5s cubic-bezier(.95, .05, .795, .035);
+}
+
+#nav_bar ul li a:hover::after {
+    transition-timing-function: cubic-bezier(.19, 1, .22, 1);
+    transform: scaleX(1);
+}
