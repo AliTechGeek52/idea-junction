@@ -1,0 +1,28 @@
+#header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#header_nav img {
+    height: 25px;
+}
+
+#nav_bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#nav_bar ul li {
+    margin-left: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
