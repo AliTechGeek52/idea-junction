@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function NavBar(props) {
   return (
-    <div id="header_nav">
+    <div id="header_nav" style={{ position: props.position }}>
       <Link to="/">
         <img src={props.logo} alt="logo" />
       </Link>

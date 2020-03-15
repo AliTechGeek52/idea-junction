@@ -1,0 +1,51 @@
+#about_rise {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#about_background {
+  position: relative;
+  width: 100%;
+}
+
+.about_bg {
+  position: absolute;
+  width: 118%;
+}
+
+#about_bg1 {
+  top: -276px;
+  left: -9px;
+}
+
+#about_bg2 {
+  top: -320px;
+  left: -72px;
+  width: 120%;
+}
+
+#about_bg3 {
+  top: -329px;
+  left: -67px;
+}
+
+#about_detail {
+  z-index: 20;
+  padding: 100px;
+  color: white;
+  width: 60%;
+}
+
+#about_detail > h1 {
+  font-size: 62px;
+  font-weight: 900;
+  margin: 0;
+}
+
+#about_detail > p {
+  font-size: 20px;
+  word-spacing: 4px;
+}

@@ -6,7 +6,7 @@ import logo_white from "../../assets/images/unfold-logo-white.png";
 function Home(props) {
   return (
     <div>
-      <NavBar logo={logo_white} ulColor="white" />
+      <NavBar logo={logo_white} ulColor="white" position="sticky" />
       <div style={{ position: "absolute", top: 0, width: "100%" }}>
         <CrowdRise />
       </div>

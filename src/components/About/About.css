@@ -1,0 +1,22 @@
+#about {
+  display: flex;
+  flex-direction: column;
+}
+#intro {
+  display: flex;
+  padding: 80px 0;
+  /* align-items: flex-end; */
+  /* justify-content: end; */
+  flex-direction: row-reverse;
+}
+#intro h1 {
+  color: #444;
+  font-size: 32px;
+  font-weight: 900;
+  margin-right: 140px;
+}
+#intro p {
+  color: #8a8a8a;
+  font-size: 18px;
+  line-height: 30px;
+}

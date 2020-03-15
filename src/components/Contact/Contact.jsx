@@ -7,7 +7,7 @@ import contact_map from "../../assets/images/contact/map.png";
 function Contact(props) {
   return (
     <div>
-      <NavBar logo={logo_dark} ulColor="black" />
+      <NavBar logo={logo_dark} ulColor="black" position="relative" />
       <section id="contact">
         <div id="contact_map">
           <img src={contact_map} alt="map" />
