@@ -1,21 +1,29 @@
 import React from "react";
-import logo_white from "../../assets/images/unfold-logo-white.png";
 import "./Navbar.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function NavBar(props) {
   return (
     <div id="header_nav">
-      <img src={logo_white} alt="logo_white" />
+      <Link to="/">
+        <img src={props.logo} alt="logo" />
+      </Link>
       <nav id="nav_bar">
-        <ul>
+        <ul style={{ color: props.ulColor }}>
           <li>
-            <a>Projects</a>
+            <a>
+              <Link to="/projects">Projects</Link>
+            </a>
           </li>
           <li>
-            <a>About</a>
+            <a>
+              <Link to="/About">About</Link>
+            </a>
           </li>
           <li>
-            <a>Contact</a>
+            <a>
+              <Link to="/contact">Contact</Link>
+            </a>
           </li>
         </ul>
       </nav>
