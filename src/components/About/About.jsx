@@ -25,6 +25,7 @@ function About(props) {
           </p>
         </div>
       </section>
+      <section id="rules_section"></section>
     </div>
   );
 }
