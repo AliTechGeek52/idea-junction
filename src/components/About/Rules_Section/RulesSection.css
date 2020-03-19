@@ -1,0 +1,31 @@
+#rule {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 50px 100px 50px 70px;
+}
+#rule_title {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#rule_title img {
+  height: 25px;
+  margin: 5px 10px;
+  margin-left: 0;
+}
+#rule_title h1 {
+  color: #444;
+  font-weight: 900;
+  font-size: 26px;
+}
+#rule ul {
+  list-style-type: none;
+  color: gray;
+  font-size: 18px;
+  padding: 0;
+}
+#rule ul li {
+  margin: 10px 0;
+}

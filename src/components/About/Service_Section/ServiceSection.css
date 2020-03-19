@@ -1,0 +1,29 @@
+#servise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#servise > main {
+  width: 50%;
+}
+
+#servise_title {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+#servise_title img {
+  height: 35px;
+  margin: 5px 30px;
+  margin-left: 0;
+}
+#servise_title h1 {
+  /* color: #444; */
+  font-weight: 900;
+  font-size: 36px;
+}
+#servise > main > p {
+  font-size: 20px;
+  line-height: 30px;
+}
