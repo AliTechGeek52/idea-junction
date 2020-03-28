@@ -1,0 +1,28 @@
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+#footer p{
+    font-size: 12px;
+    color: #444;
+}
+
+#footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#footer ul li {
+    margin:5px 10px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+}
+
+#footer ul li:hover{
+    color: #e4404d;
+}
