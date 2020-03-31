@@ -1,0 +1,20 @@
+#roadMap_target {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#roadMap_target h2{
+    color: rgb(218, 218, 218);
+    font-size: 18px;
+    padding-bottom: 48px;
+
+}
+#roadMap_target p{
+    font-size: 14px;
+    padding-right: 40px;
+    padding-top: 48px;
+    border-top: 5px ridge #555;
+    line-height: 30px;
+    color: rgb(158, 158, 158);
+}

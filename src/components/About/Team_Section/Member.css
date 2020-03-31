@@ -1,0 +1,38 @@
+#member {
+  position: relative;
+  overflow: hidden;
+}
+#member_back {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+  transition: 0.5s;
+}
+#member_back h2{
+    margin: 0;
+    font-size: 30px;
+}
+#member_back p{
+    font-size: 20px;
+}
+#member:hover #member_back {
+  transition: 0.5s;
+  background-color: #e34154d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+}
+#member_front img {
+  width: 100%;
+  transition: 1s;
+  transform: scale(1.1);
+}
+#member:hover #member_front img {
+  transition: 1s;
+  transform: scale(1.2);
+}
