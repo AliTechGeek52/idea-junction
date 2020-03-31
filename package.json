@@ -2,6 +2,7 @@
   "name": "idea_junction",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://alitechgeek52.github.io/idea-junction/",
   "dependencies": {
     "@babel/helper-validator-identifier": "^7.9.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
