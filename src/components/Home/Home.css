@@ -1,0 +1,31 @@
+#home_footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 0;
+}
+#home_footer h1 {
+  color: #444;
+  font-size: 36px;
+  font-weight: 900;
+}
+#home_footer button {
+  color: white;
+  background-color: #e4404d;
+  border: 2px solid #e4404d;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 20px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+#home_footer button:hover {
+  color: #e4404d;
+  background-color: white;
+  border: 2px solid #e4404d;
+  transition: 0.1s;
+}
